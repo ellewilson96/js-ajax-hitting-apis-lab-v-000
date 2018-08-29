@@ -22,10 +22,7 @@
     </head>
     <body>
     <main id="main">
-      <form onsubmit="getRepositories();">
-       <input type="text" id="username"><br>
-       <input type="submit">
-     </form>
+
     </main>
     <div class="flexbox-container">
       <div>
@@ -45,6 +42,9 @@
     <script src="node_modules/sinon/pkg/sinon.js"></script>
     <script>mocha.setup('bdd');</script>
     <script src="test/index-test.js"></script>
-
+    <form onsubmit="getRepositories();">
+     <input type="text" id="username"><br>
+     <input type="submit">
+    </form>
   </body>
 </html>
